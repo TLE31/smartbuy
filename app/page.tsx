@@ -18,7 +18,7 @@ export default async function Home() {
               Automate the affialte with<span className="text-primary"> Smart Buy</span>
             </h1>
             <p className="mt-6 text-sm text-gray-200">
-              This is the powerfull tool, which convert your amazon link in affilate, and notify you on <Link className="text-orange-600" target='_blank' href='https://t.me/buying_sense'>Telegram.</Link> and notify you on emails by subscribing it.
+              This is the powerfull tool, which convert your amazon link in affilate, and notify you on <Link className="text-orange-600" target='_blank' href='https://t.me/+vVbYNBpC0WUzNGI1'>Telegram.</Link> and notify you on emails by subscribing it.
             </p>
 
             <SearchBar />
