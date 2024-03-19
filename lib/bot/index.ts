@@ -1,9 +1,9 @@
 'use server'
 const TelegramBot = require('node-telegram-bot-api');
 
-const bot = new TelegramBot("6941276165:AAE6u75Re-butYbaHv-ffwx37jN7smMvgT0");
+const bot = new TelegramBot(process.env.BOTTOKEN);
 
-const chatId = -4056060773;
+const chatId = process.env.CHATID;
 
 export const shareProduct = async (image: string, telegramData: String) => {
     try {
